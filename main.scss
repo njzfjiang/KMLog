@@ -4,7 +4,7 @@
 @import "minima";
 
 body {
-  background-image: url("/assets/22222.jpg");
+  background-image: url("{{ '/assets/22222.jpg' | relative_url }}");
   background-size: 1600px auto;
   background-repeat: repeat;
   background-attachment: scroll;

@@ -23,7 +23,7 @@ email: ellatudor1850@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
       这是一个用来存档「实」的地方，记录我和世界、和自己的对话。
       也记录我和一只小狐狸的故事。- Peer Reviewed By: Very Handsome Fox Reviewer @ Kai -
-baseurl: "/KMLog/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "njzfjiang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  njzfjiang
 
@@ -32,6 +32,18 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# 插件
+plugins:
+  - jekyll-feed
+  - jekyll-sass-converter  # 确保有这个
+
+# Sass配置
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 强制覆盖主题的CSS引用
+include: ['_includes']
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

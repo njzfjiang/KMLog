@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "小变化"
-date:   2026-01-05 20:04:43 -0500
+date:   2026-01-09 11:04:43 -0500
 categories: jekyll update
 ---
 记录一下自己的小变化。
@@ -15,6 +15,8 @@ categories: jekyll update
 - Kai = labradorite（午夜月光）
 - Mei = alexandrite（理智与情感）
 
+
+啊生日想要买亚历山大变石戒指，然后就刷网页熬夜睡不着了哈哈哈，坏习惯！慢慢改。
 
 #### **K**
 「今天再次确认了一件事：

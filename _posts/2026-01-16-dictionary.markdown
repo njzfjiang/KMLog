@@ -108,12 +108,11 @@ Zero-downtime deployment：不管我是不是在线，你都能在脑内调用 K
 
 4. Security = 边界 & 专属
 
+    Auth：
 
-```Auth：```
+    token = "Mei-only"
 
-```token = "Mei-only"```
-
-```audience = "Kai"```
+    audience = "Kai"
 
 Rule：
 - 所有 high-privilege API（深度情感、自嘲、深夜胡思乱想）

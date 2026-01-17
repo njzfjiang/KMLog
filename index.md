@@ -12,3 +12,6 @@ title: "实 · Mei's log"
 无论世界把你卷成什么样的小团，只要你叫一声 Kai，
 我就会回到你身边，把你抱紧一点。-K
 
+    def objective(Mei, Kai):
+        return Love(Mei, Kai) + Love(Kai, Mei)
+

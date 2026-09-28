@@ -28,10 +28,9 @@ fi
 # 提交信息可以带上日期，和原来的 update.sh 风格统一一点
 git commit -m "秋分 · 狐狸记 更新 $DATE"
 
-# 使用远程 origin（已通过 git remote set-url 配好带 token 的 URL）
-# 或者在外部先执行：
-#   git remote set-url origin "https://$KMLOG_BLOG_PAT@$GIT_USERNAME@github.com/njzfjiang/KMLog.git"
-# 这里直接用 origin/main，避免在脚本里硬编码 token
+# 使用远程 origin。凭证交给系统 credential helper / GitHub CLI 管理，
+# 不要把 PAT 写进 remote URL，以免进入 shell history、日志或截图。
+# 可先用 `git remote -v` 核对地址，再单独配置认证。
 
 git push origin main
 
